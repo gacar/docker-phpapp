@@ -1,7 +1,7 @@
 
-#Creating a Simple PHP Dockerized Application
+# Creating a Simple PHP Dockerized Application
 
-##Create a Dockerfile (Dockerfile.txt):
+## Create a Dockerfile (Dockerfile.txt):
 
 ```
 FROM php:7.4-apache
@@ -10,9 +10,9 @@ COPY /php /var/www/html
 EXPOSE 80
 CMD ["apache2-foreground"]
 ```
-**
+
 ## Create an index.php File:
-**
+
 Inside the php directory, create an index.php file with the following content:
 
 ```
