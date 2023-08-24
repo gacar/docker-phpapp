@@ -1,5 +1,6 @@
 
 #Creating a Simple PHP Dockerized Application
+
 ##Create a Dockerfile (Dockerfile.txt):
 
 ```
